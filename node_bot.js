@@ -59,7 +59,6 @@ bot.dialog("/handle_postback", function(session){
 	session.send("Sending POST request!");
 
 	//send HTTP request
-	/*
 	var options = {
 		method: "POST",
 		uri: "https://www.thisismyendpoint.com",
@@ -75,7 +74,6 @@ bot.dialog("/handle_postback", function(session){
 		.catch((err) => {
 			//handle error here
 		});
-	*/
 	
 	//go back to root dialog
 	session.endDialog();
